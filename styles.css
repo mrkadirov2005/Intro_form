@@ -1,0 +1,74 @@
+*,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+    /* color: red; */
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.container {
+    width: 80%;
+    height: auto;
+    background-color: blue;
+    
+
+
+}
+
+.input-wrapper {
+    width: 50%;
+    height: auto;
+    background-color: rgb(148, 46, 46);
+    font-family: 'Rubik Bubbles', cursive;
+
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    /* flex-direction: column; */
+}
+.namewrapper {
+}
+.userNameInput {
+}
+.styles {
+    padding: 10px;
+    margin: 10px;
+    font-weight:700px;
+    font-style: italic;
+    background-color: rgb(234, 178, 178);
+    border: none;
+    outline: none;
+    border-bottom: 3px solid black;
+    
+    
+}
+.lastnamewrapper {
+}
+.label {
+    margin-bottom: 10px;
+    background-color: #252421;
+    color: white;
+}
+.userLastNameInput {
+}
+.emailwrapper {
+}
+.emailPasswordwrapper {
+}
+.result-wrapper {
+}
